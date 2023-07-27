@@ -1,0 +1,44 @@
+body {
+    background-color: rosybrown;
+}
+
+
+
+h1{
+    font-family: 'Times New Roman';
+    color: brown;
+    
+}
+h2{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(102, 44, 3);
+}
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+h2{
+    background-color: cornsilk;
+
+}
+ul{
+left {
+text-align: Beraanda
+} ;
+nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1pk solid whitesmoke;
+}
